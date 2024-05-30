@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337873741153",
+    "project_id": "netify-aa2cd",
+    "storage_bucket": "netify-aa2cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337873741153:android:e54acd7479dcc3772d9120",
+        "android_client_info": {
+          "package_name": "com.lavender322.netify_frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAprNngFsLieNzTZZEzLWZBL4jbPwtUxDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

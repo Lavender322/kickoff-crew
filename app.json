@@ -1,36 +1,52 @@
 {
   "expo": {
-    "name": "sports-activity-finder",
-    "slug": "sports-activity-finder",
+    "name": "KickOff Crew",
+    "slug": "kickoff_crew_frontend",
+    "scheme": "kickoff_crew",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "backgroundColor": "#F8F8F8",
+    "assetBundlePatterns": ["**/*"],
+    "notification": {
+      "icon": "./assets/images/iconPushNotification.png"
+    },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.net-ify.ios"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lavender322.netify_frontend",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "extra": {
+      "eas": {
+        "projectId": "68b90716-147c-4eee-a369-625f0d41dcba"
+      }
+    },
     "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
   }
 }
